@@ -1,1 +1,0 @@
-# lingi-log.github.io
