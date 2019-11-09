@@ -3,15 +3,114 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Lingi-log</title>
+    <title>Proxy Pattern | Lingi-log</title>
     <meta name="description" content="Blog About Study">
     
     
-    <link rel="preload" href="/assets/css/0.styles.d01e3fed.css" as="style"><link rel="preload" href="/assets/js/app.aeeef581.js" as="script"><link rel="preload" href="/assets/js/2.d65de26e.js" as="script"><link rel="preload" href="/assets/js/51.852f167a.js" as="script"><link rel="prefetch" href="/assets/js/10.67e84195.js"><link rel="prefetch" href="/assets/js/11.55e3b028.js"><link rel="prefetch" href="/assets/js/12.f8711791.js"><link rel="prefetch" href="/assets/js/13.f551b923.js"><link rel="prefetch" href="/assets/js/14.764a6950.js"><link rel="prefetch" href="/assets/js/15.4457e97d.js"><link rel="prefetch" href="/assets/js/16.1d8a31ff.js"><link rel="prefetch" href="/assets/js/17.efc19fb9.js"><link rel="prefetch" href="/assets/js/18.d648ec86.js"><link rel="prefetch" href="/assets/js/19.e8ba261f.js"><link rel="prefetch" href="/assets/js/20.c646294f.js"><link rel="prefetch" href="/assets/js/21.349ad2ec.js"><link rel="prefetch" href="/assets/js/22.1ee400d9.js"><link rel="prefetch" href="/assets/js/23.7f0a3889.js"><link rel="prefetch" href="/assets/js/24.7d44ab9e.js"><link rel="prefetch" href="/assets/js/25.072a3ddd.js"><link rel="prefetch" href="/assets/js/26.563e4e84.js"><link rel="prefetch" href="/assets/js/27.07990928.js"><link rel="prefetch" href="/assets/js/28.d7816f6c.js"><link rel="prefetch" href="/assets/js/29.4df62b19.js"><link rel="prefetch" href="/assets/js/3.657d48ea.js"><link rel="prefetch" href="/assets/js/30.5d8fadea.js"><link rel="prefetch" href="/assets/js/31.9ca914f0.js"><link rel="prefetch" href="/assets/js/32.06d3bd06.js"><link rel="prefetch" href="/assets/js/33.da457347.js"><link rel="prefetch" href="/assets/js/34.b4a7cc5a.js"><link rel="prefetch" href="/assets/js/35.2fc25a42.js"><link rel="prefetch" href="/assets/js/36.83f98eb6.js"><link rel="prefetch" href="/assets/js/37.a14f15d9.js"><link rel="prefetch" href="/assets/js/38.1cf43521.js"><link rel="prefetch" href="/assets/js/39.411fcac0.js"><link rel="prefetch" href="/assets/js/4.bba3f465.js"><link rel="prefetch" href="/assets/js/40.70746bd6.js"><link rel="prefetch" href="/assets/js/41.8331901f.js"><link rel="prefetch" href="/assets/js/42.e4822ed6.js"><link rel="prefetch" href="/assets/js/43.b0370f2e.js"><link rel="prefetch" href="/assets/js/44.48cec0c0.js"><link rel="prefetch" href="/assets/js/45.7e30ea98.js"><link rel="prefetch" href="/assets/js/46.c5ae47ed.js"><link rel="prefetch" href="/assets/js/47.0a86ef3e.js"><link rel="prefetch" href="/assets/js/48.e9c6a756.js"><link rel="prefetch" href="/assets/js/49.d09df4b6.js"><link rel="prefetch" href="/assets/js/5.df890fb5.js"><link rel="prefetch" href="/assets/js/50.a5357833.js"><link rel="prefetch" href="/assets/js/52.3d9f477e.js"><link rel="prefetch" href="/assets/js/53.c7f7fc4f.js"><link rel="prefetch" href="/assets/js/54.eff3a7f7.js"><link rel="prefetch" href="/assets/js/55.42b6bc62.js"><link rel="prefetch" href="/assets/js/6.e788b34a.js"><link rel="prefetch" href="/assets/js/7.9580c619.js"><link rel="prefetch" href="/assets/js/8.d3b4ecd4.js"><link rel="prefetch" href="/assets/js/9.f3810800.js">
+    <link rel="preload" href="/assets/css/0.styles.d01e3fed.css" as="style"><link rel="preload" href="/assets/js/app.da547a8a.js" as="script"><link rel="preload" href="/assets/js/2.d65de26e.js" as="script"><link rel="preload" href="/assets/js/51.38c54e3b.js" as="script"><link rel="prefetch" href="/assets/js/10.67e84195.js"><link rel="prefetch" href="/assets/js/11.55e3b028.js"><link rel="prefetch" href="/assets/js/12.f8711791.js"><link rel="prefetch" href="/assets/js/13.f551b923.js"><link rel="prefetch" href="/assets/js/14.764a6950.js"><link rel="prefetch" href="/assets/js/15.4457e97d.js"><link rel="prefetch" href="/assets/js/16.1f657350.js"><link rel="prefetch" href="/assets/js/17.efc19fb9.js"><link rel="prefetch" href="/assets/js/18.d648ec86.js"><link rel="prefetch" href="/assets/js/19.e8ba261f.js"><link rel="prefetch" href="/assets/js/20.c646294f.js"><link rel="prefetch" href="/assets/js/21.349ad2ec.js"><link rel="prefetch" href="/assets/js/22.1ee400d9.js"><link rel="prefetch" href="/assets/js/23.1bc4a4da.js"><link rel="prefetch" href="/assets/js/24.c39e5a86.js"><link rel="prefetch" href="/assets/js/25.072a3ddd.js"><link rel="prefetch" href="/assets/js/26.563e4e84.js"><link rel="prefetch" href="/assets/js/27.07990928.js"><link rel="prefetch" href="/assets/js/28.d56d2ec8.js"><link rel="prefetch" href="/assets/js/29.1141198d.js"><link rel="prefetch" href="/assets/js/3.ef70dbbe.js"><link rel="prefetch" href="/assets/js/30.f11f1407.js"><link rel="prefetch" href="/assets/js/31.9ca914f0.js"><link rel="prefetch" href="/assets/js/32.06d3bd06.js"><link rel="prefetch" href="/assets/js/33.da457347.js"><link rel="prefetch" href="/assets/js/34.7c1ffe76.js"><link rel="prefetch" href="/assets/js/35.b489a406.js"><link rel="prefetch" href="/assets/js/36.6758c2b0.js"><link rel="prefetch" href="/assets/js/37.a14f15d9.js"><link rel="prefetch" href="/assets/js/38.05c86ecc.js"><link rel="prefetch" href="/assets/js/39.411fcac0.js"><link rel="prefetch" href="/assets/js/4.bba3f465.js"><link rel="prefetch" href="/assets/js/40.92c424db.js"><link rel="prefetch" href="/assets/js/41.845fadab.js"><link rel="prefetch" href="/assets/js/42.76793377.js"><link rel="prefetch" href="/assets/js/43.6b995835.js"><link rel="prefetch" href="/assets/js/44.39625d8d.js"><link rel="prefetch" href="/assets/js/45.29bcf478.js"><link rel="prefetch" href="/assets/js/46.49447e18.js"><link rel="prefetch" href="/assets/js/47.0a86ef3e.js"><link rel="prefetch" href="/assets/js/48.e9c6a756.js"><link rel="prefetch" href="/assets/js/49.d09df4b6.js"><link rel="prefetch" href="/assets/js/5.df890fb5.js"><link rel="prefetch" href="/assets/js/50.a5357833.js"><link rel="prefetch" href="/assets/js/52.3d9f477e.js"><link rel="prefetch" href="/assets/js/53.7196bc0c.js"><link rel="prefetch" href="/assets/js/54.deca38f0.js"><link rel="prefetch" href="/assets/js/55.8ddb1c92.js"><link rel="prefetch" href="/assets/js/56.dcec8fdd.js"><link rel="prefetch" href="/assets/js/6.e788b34a.js"><link rel="prefetch" href="/assets/js/7.9580c619.js"><link rel="prefetch" href="/assets/js/8.d3b4ecd4.js"><link rel="prefetch" href="/assets/js/9.f3810800.js">
     <link rel="stylesheet" href="/assets/css/0.styles.d01e3fed.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/thumbnail.png" alt="Lingi-log" class="logo"> <span class="site-name can-hide">Lingi-log</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study/" class="nav-link router-link-active">Study</a></div><div class="nav-item"><a href="/backend/" class="nav-link">Backend</a></div><div class="nav-item"><a href="/frontend/" class="nav-link">Frontend</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/db/" class="nav-link">DB</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study/" class="nav-link router-link-active">Study</a></div><div class="nav-item"><a href="/backend/" class="nav-link">Backend</a></div><div class="nav-item"><a href="/frontend/" class="nav-link">Frontend</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/db/" class="nav-link">DB</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Design Pattern</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/designpattern/1_observer.html" class="sidebar-link">Observer Pattern</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Algorithm</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Leet Code</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/algorithm/algorithm_leet_46-50.html" class="sidebar-link">46번 ~ 50번</a></li><li><a href="/study/algorithm/algorithm_leet_51-60.html" class="sidebar-link">51번 ~ 60번</a></li></ul></section></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>깨끗한 코드</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/refactoring/intro.html" class="sidebar-link">INTRO</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">10/27/2019, 7:16:25 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.aeeef581.js" defer></script><script src="/assets/js/2.d65de26e.js" defer></script><script src="/assets/js/51.852f167a.js" defer></script>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/thumbnail.png" alt="Lingi-log" class="logo"> <span class="site-name can-hide">Lingi-log</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study/" class="nav-link router-link-active">Study</a></div><div class="nav-item"><a href="/backend/" class="nav-link">Backend</a></div><div class="nav-item"><a href="/frontend/" class="nav-link">Frontend</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/db/" class="nav-link">DB</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study/" class="nav-link router-link-active">Study</a></div><div class="nav-item"><a href="/backend/" class="nav-link">Backend</a></div><div class="nav-item"><a href="/frontend/" class="nav-link">Frontend</a></div><div class="nav-item"><a href="/linux/" class="nav-link">Linux</a></div><div class="nav-item"><a href="/db/" class="nav-link">DB</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Design Pattern</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/designpattern/1_observer.html" class="sidebar-link">Observer Pattern</a></li><li><a href="/study/designpattern/2_proxy.html" class="active sidebar-link">Proxy Pattern</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#필요성에-대해" class="sidebar-link">필요성에 대해.</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#어떻게-해결할까" class="sidebar-link">어떻게 해결할까?</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#proxy-패턴의-구조" class="sidebar-link">Proxy 패턴의 구조</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#_3rd-party-라이브러리와-proxy-예시" class="sidebar-link">3rd-party 라이브러리와 Proxy 예시</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#사용법" class="sidebar-link">사용법</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#구현방법" class="sidebar-link">구현방법</a></li><li class="sidebar-sub-header"><a href="/study/designpattern/2_proxy.html#장단점" class="sidebar-link">장단점</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Algorithm</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Leet Code</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/algorithm/algorithm_leet_46-50.html" class="sidebar-link">46번 ~ 50번</a></li><li><a href="/study/algorithm/algorithm_leet_51-60.html" class="sidebar-link">51번 ~ 60번</a></li></ul></section></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>깨끗한 코드</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study/refactoring/1_intro.html" class="sidebar-link">INTRO</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="proxy-pattern">Proxy Pattern</h1> <p>Proxy패턴은 Structural Design Pattern(클래스나 객체를 조합해 더 큰 구조를 만드는 패턴)으로, 원본 객체에 대한 요청 앞, 뒤로 무언가를 수행할 수 있도록 해 준다.
+https://refactoring.guru/design-patterns/proxy</p> <h2 id="필요성에-대해">필요성에 대해.</h2> <p>왜 객체에 대한 접근을 제어해야 할까? 예를 들어 보자.<br>
+많은 양의 시스템 리소스를 잡아먹는 방대한 양의 Object가 있다고 해 보자. 이 객체에 접근하는 Client들은 이 객체를 항상 필요로 하는 것이 아니라 가끔씩 필요로 한다.<br>
+그래서 Client들은 Lazy Initialization(필요할 때 생성) Code를 실행해야 하는데, 이때 상당히 많은 코드의 중복이 발생할 수 있다.<br>
+이상적으로는 Object 클래스에 이 로직을 집어넣는다면 좋겠지만, 현실은 불가능할 때가 많다. 예를들어 closed 3rd-party 라이브러리의 클래스를 사용할 때 그렇다.</p> <h2 id="어떻게-해결할까">어떻게 해결할까?</h2> <p>Proxy 패턴을 적용해 보자.</p> <ul><li>Origin Service Object와 같은 interface를 구현한 proxy 클래스를 생성</li> <li>모든 clients가 proxy에 접근하도록 한다.</li> <li>proxy는 client로 부터 요청을 받으면 Origin Service Object를 생성하고, 모든 작업을 위임한다.</li></ul> <p>이렇게 함으로서 Origin Service Object 의 변경 없이 Origin Service Object의 로직을 실행하기 전, 후에 무언가 필요한 작업을 실행시킬 수 있다.</p> <h2 id="proxy-패턴의-구조">Proxy 패턴의 구조</h2> <p><img src="/proxy_2.jpeg" alt="proxy패턴의구조"></p> <ol><li><code>ServiceInterface</code>는 Service의 인터페이스를 정의한다. Proxy는 Service Object처럼 동작하기 위해 이 인터페이스를 구현해야 한다.</li> <li><code>Service</code>는 필요한 비지니스 로직을 제공한다.</li> <li><code>Proxy</code>클래스에는 service object를 가리키는 reference field가 있다. <code>Proxy</code>가 특정 작업(lazy initialization, logging, access control, caching 등)을 마친 뒤 request를 service object에 전달한다.<br>
+보통, proxy는 service object의 전체 life cycle을 관리한다.</li> <li>클라이언트는 동일한 인터페이스를 통해 서비스와 프록시 모두에서 작동해야한다. 이렇게하면 서비스 객체가 필요한 모든 코드에 프록시를 전달할 수 있다.</li></ol> <h2 id="_3rd-party-라이브러리와-proxy-예시">3rd-party 라이브러리와 Proxy 예시</h2> <p>Proxy로 어떻게 3rd-party 라이브러리의 lazy initialization과 caching을 구현하는 지 보여주는 예시 이다.
+<img src="/proxy_3.jpeg" alt="proxy와3rdpartylib">
+Library는 video download 클래스를 제공한다. 하지만 이것은 매우 비효율적이다. 만약 Client application이 동일한 video를 여러 번 요청하면, 라이브러리는 그 파일을 캐싱해놓고 재사용하는 것이 아니라 계속해서 다운로드 한다.<br>
+Proxy클래스는 원본 라이브러리와 같은 인터페이스를 구현하고 있으며 모든 작업 요청을 위임한다. 하지만 Client가 동일한 파일을 반복적으로 요청한다면, cache된 파일을 내려준다.<br>
+아래의 psuedocode를 보고 이해해 보자.</p> <div class="language- extra-class"><pre class="language-text"><code>// The interface of a remote service.
+interface ThirdPartyYoutubeLib is
+    method listVideos()
+    method getVideoInfo(id)
+    method downloadVideo(id)
+
+// The concrete implementation of a service connector. Methods
+// of this class can request information from YouTube. The speed
+// of the request depends on a user's internet connection as
+// well as YouTube's. The application will slow down if a lot of
+// requests are fired at the same time, even if they all request
+// the same information.
+class ThirdPartyYoutubeClass implements ThirdPartyYoutubeLib is
+    method listVideos() is
+        // Send an API request to YouTube.
+
+    method getVideoInfo(id) is
+        // Get metadata about some video.
+
+    method downloadVideo(id) is
+        // Download a video file from YouTube.
+
+// To save some bandwidth, we can cache request results and keep
+// them for some time. But it may be impossible to put such code
+// directly into the service class. For example, it could have
+// been provided as part of a third party library and/or defined
+// as `final`. That's why we put the caching code into a new
+// proxy class which implements the same interface as the
+// service class. It delegates to the service object only when
+// the real requests have to be sent.
+class CachedYoutubeClass implements ThirdPartyYouTubeLib is
+    private field service: ThirdPartyYouTubeClass
+    private field listCache, videoCache
+    field needReset
+
+    constructor CachedYoutubeClass(service: ThirdPartyYouTubeLib) is
+        this.service = service
+
+    method listVideos() is
+        if (listCache == null || needReset)
+            listCache = service.listVideos()
+        return listCache
+
+    method getVideoInfo(id) is
+        if (videoCache == null || needReset)
+            videoCache = service.getVideoInfo(id)
+        return videoCache
+
+    method downloadVideo(id) is
+        if (!downloadExists(id) || needReset)
+            service.downloadVideo(id)
+
+// The GUI class, which used to work directly with a service
+// object, stays unchanged as long as it works with the service
+// object through an interface. We can safely pass a proxy
+// object instead of a real service object since they both
+// implement the same interface.
+class YoutubeManager is
+    protected field service: ThirdPartyYouTubeLib
+
+    constructor YoutubeManager(service: ThirdPartyYouTubeLib) is
+        this.service = service
+
+    method renderVideoPage(id) is
+        info = service.getVideoInfo(id)
+        // Render the video page.
+
+    method renderListPanel() is
+        list = service.listVideos()
+        // Render the list of video thumbnails.
+
+    method reactOnUserInput() is
+        renderVideoPage()
+        renderListPanel()
+
+// The application can configure proxies on the fly.
+class Application is
+    method init() is
+        aYouTubeService = new ThirdPartyYouTubeClass()
+        aYouTubeProxy = new CachedYouTubeClass(aYouTubeService)
+        manager = new YouTubeManager(aYouTubeProxy)
+        manager.reactOnUserInput()
+</code></pre></div><h2 id="사용법">사용법</h2> <h3 id="lazy-initialization">Lazy Initialization</h3> <h3 id="access-control">Access Control</h3> <h3 id="local-execution-of-a-remote-service">Local execution of a remote service</h3> <h3 id="logging-request">Logging Request</h3> <h3 id="caching-request-results">Caching request results</h3> <h3 id="smart-reference">Smart reference</h3> <h2 id="구현방법">구현방법</h2> <ol><li>존재하는 service interface가 없다면, proxy와 service object를 상호 교환 할 수 있는 interface를 하나 만든다. Service 클래스로 부터 interface를 뽑아내는 것은 항상 가능한 것은 아니다. interface를 뽑아내고 사용하기 위해 많은 곳을 변경해야 하기ㅏ 때문이다. 이럴 경우 대안으로 service 클래스를 상속받아 proxy를 만들 수 있다. 이 경우 proxy는 service 클래스의 interface를 상속받을 수 있다.</li> <li>Proxy 클래스 에는 service의 reference를 담을 수 있는 필드가 필요하다. 보통 proxy는 service의 생명주기를 관리한다. 드물게 클라이언트가 생성자를 통해 service를 전달하기도 한다.</li> <li>Proxy의 목적에 따라 method를 구현한다. 대부분의 경우, 특정 동작을 한 후, proxy는 작업을 service의 객체에 위임해야 한다.</li> <li>경우에 따라 프록시를 사용할 지, 실제 서비스 클래스를 사용할 지 결정할 수 있는 메소드를 제공할 수도 있다. 간단한 static 메소드 이거나 full-blown(완전한?) 팩토리 메소드를 통해.</li> <li>Service object 를 lazy initialization 할 지 결정한다.</li></ol> <h2 id="장단점">장단점</h2> <h3 id="장점">장점</h3> <ul><li>Client가 알 지 못하게 프록시를 적용할 수 있다.</li> <li>Service object의 life cycle을 관리할 수 있다.(when clients don’t care about it.)</li> <li>Service object가 생성되지 않았을 때, 사용 불가 상태일 때도 프록시는 이용할 수 있다.</li> <li>개방/폐쇄 원칙을 따라 service나 client를 수정하지 않고 새로운 프록시를 생성, 사용할 수 있다.</li></ul> <h3 id="단점">단점</h3> <ul><li>새 클래스가 많이 생성, 사용되기 때문에 코드가 복잡해 질 수 있다.</li> <li>Service에서의 응답이 지연될 수 있다.</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">11/10/2019, 1:27:30 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/study/designpattern/1_observer.html" class="prev">
+          Observer Pattern
+        </a></span> <span class="next"><a href="/study/algorithm/algorithm_leet_46-50.html">
+          46번 ~ 50번
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.da547a8a.js" defer></script><script src="/assets/js/2.d65de26e.js" defer></script><script src="/assets/js/51.38c54e3b.js" defer></script>
   </body>
 </html>
